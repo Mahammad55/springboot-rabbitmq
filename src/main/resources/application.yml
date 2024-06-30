@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: common,rabbitmq
+
+rabbitmq:
+  cards:
+    queue: CARD_QUEUE
+    dlq: CARD_DLQ
